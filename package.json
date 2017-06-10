@@ -1,0 +1,20 @@
+{
+  "name": "texcore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^2.0.45",
+    "jquery": "^3.2.1",
+    "svg.js": "^2.6.1",
+    "typescript": "^2.3.3"
+  }
+}

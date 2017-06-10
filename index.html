@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+    <meta charset="utf-8">
+    <title>SVG.js</title>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="svg.min.js"></script>
+    <script type="text/javascript" src="texcore.js"></script>
+-->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/svg.js/dist/svg.min.js"></script>
+    <script type="text/javascript" src="dst/SvgImages.js"></script>
+    <script type="text/javascript" src="dst/texcore.js"></script>
+    <script type="text/javascript" src="dst/index.js"></script>
+</head>
+
+<body>
+    <div class="allArea">
+    <div class="area">
+        
+        <div class="textArea">
+            <form>
+                <textarea id="textInputArea" cols="30" rows="5"></textarea>
+                <button type="button" id="button1" >Parse</button>
+            </form>
+        </div>
+        <div class="canvasArea">
+            <div id="drawing"></div>
+            <div id="drawing2"></div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <style>
+        .allArea{
+            /*width: 1000px;
+            height: 800px;*/
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .area {
+            width: 100%;
+            display: flex;
+        }
+
+        .textArea {
+            width: 50%;
+        }
+
+        .canvasAria {
+            width: 100%;
+            
+        }
+    </style>
+<!--
+    <script type="text/javascript">
+        $(function() {
+
+            var obj = new Texcore('drawing');
+
+            $('#textInputArea').keyup(function() {
+                var val = $(this).val();
+
+                alert(val);
+            });
+
+            obj.DrawNote(0, 0, 0);
+            obj.DrawNote(1, 1, 0);
+            obj.DrawStaff(0);
+            obj.DrawStaff(1);
+            obj.DrawStaff(2);
+            obj.DrawStaff(3);
+            obj.DrawStaff(4);
+        });
+    </script>
+-->
+</body>
+
+</html>
