@@ -39,6 +39,7 @@ let drawing2 = $("#drawing2");
 
         score.DrawClef(0);
         score.DrawClef(1);
+        score.DrawClef(2);
 
 var val = $("#drawing");
     });

@@ -27,6 +27,7 @@ $(function () {
         score.ParseAndDraw(text);
         score.DrawClef(0);
         score.DrawClef(1);
+        score.DrawClef(2);
         var val = $("#drawing");
     });
     // window.addEventListener('click',(eve)=>{
